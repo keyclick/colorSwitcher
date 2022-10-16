@@ -1,0 +1,123 @@
+html{
+    display: block;
+}
+
+.nav-center{
+    width: 90vw;
+    max-width: 620px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+    justify-content: space-between;
+}
+
+.nav-center h4{
+    margin-bottom: 0;
+    color:hsl(205, 78%, 60%);;
+}
+
+.container{
+    text-align: center;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: hsl(206, 33%, 96%);
+    color: hsl(209, 61%, 16%);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+}
+
+main{
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+}
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links li{
+    display: inline-block;
+    /* position: absolute; */
+    font-size: 20px;
+    padding: 20px;
+    top:110;
+    right:0;
+}
+
+nav{
+    background: whitesmoke;
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    box-shadow: purple
+}
+
+
+nav a {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1rem;
+    color: hsl(205, 86%, 17%);
+    letter-spacing: 0.25rem;
+    margin-right: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container h2 {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.color{
+    color: hsl(205, 78%, 60%);
+}
+
+
+
+.btn-hero {
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    letter-spacing: 0.25rem;
+    display: inline-block;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    border-radius: 0.5rem;
+}
+
+.btn:hover {
+    color: white;
+    background: black;
+}
+
